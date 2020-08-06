@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 def prying_into_the_method
     inside_the_method = "We're inside the method"
@@ -9,11 +9,5 @@ def prying_into_the_method
     puts this_variable_hasnt_been_interpreted_yet
 end
 
-def plus_two(num)
-		num = num + 2
-	  num
-		binding.pry
-end
 
-plus_two(3)
-#prying_into_the_method
+prying_into_the_method
