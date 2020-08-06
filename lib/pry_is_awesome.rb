@@ -15,4 +15,5 @@ def plus_two(num)
 		binding.pry
 end
 
-prying_into_the_method
+plus_two(3)
+#prying_into_the_method
